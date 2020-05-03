@@ -1,0 +1,107 @@
+.footer {
+    padding-top: 40px;
+    background: url(../../img/footer_bg.jpg) center (center / cover) no-repeat;
+    &__items {
+        min-height: 230px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+    &__subfooter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 50px;
+        background-color: #fafaf9;
+        &__txt {
+            font-size: 12px;
+            font-weight: 500;
+            color: #7c7c7c;
+        }
+        &__politic {
+            font-size: 12px;
+            font-weight: 500;
+            color: #0b6d8d;
+            text-decoration: none;
+        }
+    }
+    &__us {
+        img {
+            margin-bottom: 16px;
+        }
+        span {
+            font-size: 14px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+    }
+    &__contacts {
+        &__phone {
+            display: flex;
+            margin-bottom: 27px;
+            align-items: center;
+            & span {
+                margin-left: 10px;
+                font-size: 16px;
+                font-weight: 300;
+                color: #ffffff;
+            }
+        }
+        &__email {
+            display: flex;
+            align-items: center;
+            margin-bottom: 27px;
+            & span {
+                margin-left: 10px;
+                font-size: 16px;
+                font-weight: 300;
+                color: #ffffff;
+            }
+        }
+        &__adress {
+            display: flex;
+            align-items: center;
+            & span {
+                margin-left: 10px;
+                font-size: 16px;
+                font-weight: 300;
+                color: #ffffff;
+            }
+        }
+    }
+    &__work {
+        &__time {
+            display: flex;
+            align-items: center;
+            margin-bottom: 27px;
+            & span {
+                margin-left: 10px;
+                font-size: 16px;
+                font-weight: 300;
+                color: #ffffff;
+            }
+        }
+        &__sec {
+            display: flex;
+            align-items: center;
+            & span {
+                margin-left: 29px;
+                font-size: 16px;
+                font-weight: 300;
+                color: #ffffff;
+            }
+        }
+    }
+    &__social {
+        &__links {
+            display: flex;
+        }
+        a {
+            margin-right: 10px;
+            text-decoration: none;
+        }
+    }
+}

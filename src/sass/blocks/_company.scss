@@ -1,0 +1,23 @@
+.company {
+    min-height: 730px;
+    background-color: #fafaf9;
+    padding-top: 60px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        &__txt {
+            display: block;
+            width: 690px;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 500;
+            color: #292929;
+        }
+        &__img {
+            width: 434px;
+            height: 469px;
+        }
+    }
+}

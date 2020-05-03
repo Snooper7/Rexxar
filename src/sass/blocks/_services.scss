@@ -1,0 +1,51 @@
+.services   {
+    padding-top: 60px;
+    margin-bottom: 30px;
+    &__items    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        display: block;
+        position: relative;
+        width: 370px;
+        height: 450px;
+        margin-bottom: 30px;
+        &_1 {
+            background: url(../../img/service1.jpg) center (center / cover) no-repeat;
+        }
+        &_2 {
+            background: url(../../img/service2.jpg) center (center / cover) no-repeat;
+        }
+        &_3 {
+            background: url(../../img/service3.jpg) center (center / cover) no-repeat;
+        }
+        &_4 {
+            background: url(../../img/service4.jpg) center (center / cover) no-repeat;
+        }
+        &_5 {
+            background: url(../../img/service5.jpg) center (center / cover) no-repeat;
+        }
+        &_6 {
+            background: url(../../img/service6.jpg) center (center / cover) no-repeat;
+        }
+    }
+    &__name {
+        position: absolute;
+        left: 29px;
+        bottom: 50px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    &__link {
+        position: absolute;
+        left: 30px;
+        bottom: 25px;
+        font-size: 16px;
+        color: #ffa131;
+        font-weight: 300;
+        text-decoration: none;
+    }
+}

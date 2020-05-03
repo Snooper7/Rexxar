@@ -1,0 +1,17 @@
+@import 'libs/fonts.scss';
+@import 'blocks/header.scss';
+@import 'blocks/titles.scss';
+@import 'blocks/services.scss';
+@import 'blocks/company.scss';
+@import 'blocks/footer.scss';
+
+*   {
+    font-family: 'Stem', sans-serif;
+}
+
+.container  {
+    max-width: 1175px;
+    margin: 0 auto;
+}
+
+
